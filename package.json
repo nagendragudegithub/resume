@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "node-sass": "^7.0.3",
     "sass-loader": "^13.3.2",
     "webpack": "^5.89.0"

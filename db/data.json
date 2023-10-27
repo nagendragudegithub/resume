@@ -1,0 +1,146 @@
+{
+  "resume": {
+    "PersonalInformation": {
+      "Name": "Nagendra Gude",
+      "EmailID": "gude.nagendra0907@gmail.com",
+      "MobileNo": "+918985717517",
+      "DateOfBirth": "01/02/1997",
+      "Father’sName": "Nagendra Gude",
+      "MaritalStatus": "Single",
+      "Nationality": "Indian"
+    },
+    "ProfessionalSummary": "Having 3+ years of professional experience as a software developer in the analysis, design, and implementation of web-based and Windows-based client-server applications in ReactJS.",
+
+    "frontendSkills": [
+      "Expertise in building rich client-server web applications using ReactJs.",
+      "Experienced in creating business components, custom controls, etc.",
+      "Expert-level skills in developing applications using HTML, CSS, and styles with the help of MaterialUI.",
+      "Strong experience in preparing deployment packages for web-based and Windows-based applications.",
+      "Integrating with external APIs and third-party services as part of the implementation of the customer-facing portal.",
+      "Experience with JavaScript (ES6) and asynchronous programming techniques (promises, observables, generators, async/await).",
+      "  Implemented responsive web design techniques to ensure a seamless user experience across various devices and screen sizes.",
+      "Utilized Redux-Saga to manage complex asynchronous actions and improve the application's state management."
+    ],
+    "otherSkills": [
+      "Good Experience in full Software Development Life Cycle (SDLC) from inception to peak/delivery of project/product.",
+      "Expert in debugging an application using debugging tools.",
+      "Excellent analytical, problem-solving, and innovative skills.",
+      "A good team player with excellent technical, communication, and interpersonal skills and capable of taking up responsibilities independently and collaboratively in teams.",
+      "Motivated and determined to deliver productive high quality, complete deliverables within deadlines with minimal supervision.",
+      "Worked on Agile Software Development methodology based on iterative and incremental development.",
+      "Participated in Daily Scrum, Sprint Planning, and Sprint Review meetings"
+    ],
+
+    "education": [
+      {
+        "name": "post graduation",
+        "percentage": 80.9,
+        "college": "andhra university",
+        "year": "2019 - 2021",
+        "specialization": "Cyber security"
+      },
+      {
+        "name": "graduation",
+        "percentage": 72.5,
+        "college": "Bits vizag",
+        "year": "2015 - 2019",
+        "specialization": "cse"
+      },
+      {
+        "name": "inter mediate",
+        "percentage": 84.7,
+        "college": "NRI junior college",
+        "year": "2013 - 2015",
+        "specialization": "MPC"
+      },
+      {
+        "name": "SSC",
+        "percentage": 78,
+        "college": "VVV School",
+        "year": "2011 - 2012",
+        "specialization": ""
+      }
+    ],
+    "ProfessionalExperience": [
+      {
+        "Employer": "Tata Consultancy Services",
+        "Client": "United Airlines",
+        "Project": "United Airlines",
+        "Position": "System Engineer",
+        "Duration": "Dec 2022 – Present",
+        "Responsibilities": [
+          "Developed and maintained multiple web applications using ReactJS and Redux.",
+          "Collaborated with cross-functional teams to identify and implement new features.",
+          "Implemented responsive and mobile-first designs using HTML5 and CSS3.",
+          "Utilized REST APIs to fetch and display data.",
+          "Worked within an Agile methodology and participated in daily stand-ups and sprint planning meetings.",
+          "Participated in code reviews and utilized Git for version control.",
+          "Given demos to internal teams about the code developed, concepts used, and the functionalities achieved.",
+          "Solved the Jira stories within the Timeline.",
+          "Worked on Jira stories and interacted with the business unit to discuss the requirement and the functionality."
+        ],
+        "Environment": "ReactJs, Html, CSS, MaterialUI, GitHub, Postman, Visual Studio, Jira"
+      },
+      {
+        "Employer": "Tata Consultancy Services",
+        "Client": "NOKIA",
+        "Project": "NFMT",
+        "Position": "System Engineer",
+        "Duration": "Apr 2021 – Nov 2022",
+        "Responsibilities": [
+          "Utilized Redux and Redux Saga for efficient state management and handling complex asynchronous actions.",
+          "Made extensive use of React Hooks to enhance component reusability and maintainability.",
+          "Developed and maintained multiple web applications using ReactJS and Redux.",
+          "Collaborated with cross-functional teams to identify and implement new features.",
+          "Implemented responsive and mobile-first designs using HTML5 and CSS3.",
+          "Utilized REST APIs to fetch and display data.",
+          "Worked within an Agile methodology and participated in daily stand-ups and sprint planning meetings.",
+          "Participated in code reviews and utilized Git for version control.",
+          "Given demos to internal teams about the code developed, concepts used, and the functionalities achieved."
+        ],
+        "Environment": "ReactJs, Html, CSS, GitHub, Postman, Visual Studio"
+      },
+      {
+        "Employer": "K12 Techno Services Pvt Ltd",
+        "Client": "Orchids International School",
+        "Project": "School ERP System",
+        "Position": "Associate System Engineer",
+        "Duration": "Oct 2020 – Apr 2021",
+        "Responsibilities": [
+          "Followed SDLC best practices within an Agile environment to produce rapid iterations for clients.",
+          "Collaborated with stakeholders during development processes to confirm creative proposals and design best practices.",
+          "Coded using HTML, CSS, and JavaScript to develop features for both mobile and desktop platforms.",
+          "Contributed to projects within Scrum project management environments.",
+          "Developed a front-end application for book publication, attendance management, and a Calendar system for class schedules.",
+          "Created reusable UI components using ECMAScript.",
+          "Created Routes and rendering using components.",
+          "Involved in designing dynamic web pages, responsible for the style, look and feel of the web page using HTML and CSS.",
+          "Developed multiple web pages as per requirement.",
+          "API Integration to perform CRUD operations and responsible for the responsiveness of each and every page."
+        ],
+        "Environment": "ReactJs, Html, CSS, MaterialUI, GitHub, Postman, Visual Studio"
+      }
+    ],
+
+    "SkillSets": {
+      "WebTechnologies": [
+        "HTML5",
+        "JavaScript",
+        "CSS3",
+        "ReactJS",
+        "ES6",
+        "JSX",
+        "Hooks",
+        "Redux-Saga",
+        "Flex-Box",
+        "Jest"
+      ],
+      "Front-end-framework": ["Bootstrap", "MaterialUI"],
+      "Back-end": ["Python basics"],
+      "Databases": ["Mongo dB"],
+      "OperatingSystems": ["Windows", "Mac"],
+      "VersionControl": ["GitHub"],
+      "OtherTools": ["Visual Studio code", "Postman", "Jira"]
+    }
+  }
+}

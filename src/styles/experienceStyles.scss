@@ -1,0 +1,9 @@
+@import "educationStyles";
+
+.exp-container {
+  @include container;
+
+  .title {
+    @include title;
+  }
+}

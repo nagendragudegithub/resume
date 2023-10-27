@@ -1,0 +1,128 @@
+@mixin nameStyles {
+  display: inline-block;
+  font-weight: 900;
+  font-family: SegoeUI-SemiBold-final, Segoe UI Semibold, SegoeUI-Regular-final,
+    Segoe UI, "Segoe UI Web (West European)", Segoe, -apple-system,
+    BlinkMacSystemFont, Roboto, Helvetica Neue, Tahoma, Helvetica, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  a:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(250, 234, 54);
+  }
+}
+
+.active {
+  font-weight: bolder !important;
+  color: rgb(117, 187, 247) !important;
+  padding-bottom: 5px;
+  border-bottom: 3px solid rgb(250, 234, 54);
+}
+
+.myName {
+  @include nameStyles();
+  font-size: 36px;
+  line-height: 48px;
+}
+
+/* side nav bar */
+
+.side-by-side {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+
+  background-color: #020202;
+  .side-nav {
+    background-color: #f1eded;
+    color: #020202;
+    grid-column: 1/1;
+    grid-row: 1/2;
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        margin: 10px 0;
+
+        i {
+          font-size: 24px; /* Adjust the icon size */
+          margin-right: 10px;
+        }
+        a {
+          text-decoration: none;
+          color: #fff;
+          transition: color 0.3s;
+        }
+        &:hover {
+          color: #ff5722;
+        }
+      }
+    }
+  }
+
+  .main {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #333;
+  }
+}
+
+.btn:hover {
+  border-bottom: 1px solid white;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.btn1:hover {
+  color: white;
+}
+
+@keyframes example {
+  from {
+    background-color: #f1eded;
+  }
+  to {
+    background-color: #020202;
+  }
+}
+
+@media (max-width: 565px) {
+  .nav-list {
+    display: none;
+  }
+}

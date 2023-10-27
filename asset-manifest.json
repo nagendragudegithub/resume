@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.14efcd55.css",
+    "main.js": "/resume/static/js/main.33a2a3f1.js",
+    "static/media/chinna.png": "/resume/static/media/chinna.848660fd38d4ac9a8132.png",
+    "static/media/post.png": "/resume/static/media/post.fcfc3bc993be2ad26d52.png",
+    "index.html": "/resume/index.html",
+    "main.14efcd55.css.map": "/resume/static/css/main.14efcd55.css.map",
+    "main.33a2a3f1.js.map": "/resume/static/js/main.33a2a3f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14efcd55.css",
+    "static/js/main.33a2a3f1.js"
+  ]
+}
